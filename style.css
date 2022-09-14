@@ -2,28 +2,38 @@ body {
     background-image: url(./images/background.jpg);
 }
 
+/* características gerais */
+
+h1 {
+    position: relative;
+    left: 3%;
+}
+
 p {
     font-size: 125%;
     text-align: justify;
 }
+
+/* id divs */
 
 #HC {
     display:flex;
     justify-content: space-between;
 }
 
+#geral {
+    display: flex;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+#contato {
+    padding: 5%;
+}
+
+/* class divs */
+
 .box2 {
     width: 400px;
-}
-
-#geral {
-    display:inline-block;
-    width: 900px;
-    position: relative;
-    left: 25px;
-}
-
-form {
-    position: relative;
-    
 }
