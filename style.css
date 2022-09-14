@@ -1,6 +1,29 @@
 body {
     background-image: url(./images/background.jpg);
 }
-h1 {
+
+p {
+    font-size: 125%;
+    text-align: justify;
+}
+
+#HC {
+    display:flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    width: 400px;
+}
+
+#geral {
+    display:inline-block;
+    width: 900px;
+    position: relative;
+    left: 25px;
+}
+
+form {
+    position: relative;
     
 }
