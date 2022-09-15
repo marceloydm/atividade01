@@ -31,11 +31,33 @@ body {
 /* gerais */
 
 * {
-    color: #fff;
+    color: rgb(238, 207, 172);
+}
+
+input,textarea {
+    color: rgb(255, 255, 255);
+    width: 212px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
 }
 
 h2,label {
     font-family: 'oneregular';
+}
+
+h2 {
+    color: #fff;
+}
+
+h1:hover {
+    color: rgb(233, 134, 76);
+    transition: 2s;
+}
+
+h2:hover {
+    color: rgb(233, 134, 76);
+    transition: 2s;
 }
 
 h1 {
@@ -43,6 +65,7 @@ h1 {
     left: 3%;
     font-family: 'onepiece';
     font-size:330%;
+    color: #fff;
 }
 
 p {
