@@ -1,16 +1,4 @@
-/* condicionais */
 
-@media (min-width: 600px) {
-
-    body {
-        background-color: white;
-    }
-
-    #hc {
-        flex-wrap: wrap;
-    }
-
-}
 
 /* fontes */
 
@@ -26,7 +14,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'mermaid';
     src: url('./font/mermaid/Mermaid1001.ttf') format('truetype');
@@ -100,7 +87,6 @@ p {
 #HC {
     display:flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     width: 102.5%;
 }
 
