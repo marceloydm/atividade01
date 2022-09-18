@@ -1,0 +1,13 @@
+/* em novo arquivo pois não funcionava no arquivo único */
+
+@media (max-width: 750px) {
+
+    body {
+        background-image: url(./images/background750pxx.jpg);
+        background-size:contain;
+    }
+
+    #HC {
+        display:block;
+    }
+}

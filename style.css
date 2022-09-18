@@ -95,10 +95,17 @@ h1 {
     color: #fff;
 }
 
-p {
+p,li {
     font-size: 125%;
     text-align: justify;
     font-family: 'mermaid';
+}
+
+p {
+    text-indent: 2%;
+}
+ul {
+    width: 85%;
 }
 
 .smalltext {
