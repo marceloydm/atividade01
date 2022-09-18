@@ -126,7 +126,7 @@ ul {
 
 #geral {
     display: flex;
-    align-items:center;
+    align-items:baseline;
     justify-content: space-between;
     width: 90%;
     flex-wrap: wrap;
